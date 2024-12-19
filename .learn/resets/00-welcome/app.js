@@ -17,10 +17,8 @@ function fromYenToPound(yen) {
     return (yen / oneEuroIs["JPY"]) * oneEuroIs["GBP"];
 }
 
-console.log(sum(7,3))
-console.log(fromEuroToDollar(3.5))
-console.log(fromDollarToYen(8))
-console.log(fromYenToPound(60))
+
+
 
 // Esta es mi funcion que suma dos numeros
 
@@ -30,7 +28,7 @@ const sum = (a,b) =>{
 
 // Solo un registro en consola para nosotros
 
-
+console.log(sum(7,3))
 
 // Exportar la funcion para usarla en otros archivos
 
